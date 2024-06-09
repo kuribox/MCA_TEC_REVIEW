@@ -1,0 +1,31 @@
+.point {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: gray;
+  z-index: 3;
+}
+
+.circle:hover {
+  background-color: #121314;
+  cursor: grab;
+}
+
+
+.dragging .circle {
+  width: 25px;
+  height: 25px;
+  background-color: #121314;
+}
